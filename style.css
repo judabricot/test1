@@ -84,13 +84,22 @@ a:hover {
 }
 
 .plat:hover .plat3 span {
-    animation:1s 0.5s 1  elie;  /* Animation: durée, délai avant demarrage, repetition, both, nom anim   */
+    animation:1s 0.5s 1 both elie;  /* Animation: durée, délai avant demarrage, repetition, both, nom anim   */
+}
+
+h3 {
+    
 }
 
 
 @keyframes elie {
     from { transform: rotate(0deg); font-size: 5px;}
     to { transform: rotate(360deg); font-size: 45px; }
+}
+@keyframes elie {
+    0% { transform: rotate(0deg); font-size: 5px;}
+    80% { }
+    100% { transform: rotate(360deg); font-size: 45px; }
 }
 
 
